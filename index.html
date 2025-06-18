@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoetryBot </title>
+    <link rel="stylesheet" href="src/style.css">
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="bg-gray-100 text-black">
+    <div class="justify-center flex m-3 items-center flex-col quintessential-regular">
+        <h1 class="text-4xl ">PoetryBot</h1>
+        <button onclick="Generate()">
+            <div class="border-black border rounded-sm px-6 py-2 my-8">Ask nicely for life advice</div>
+
+        </button>
+        <div id="textbox"
+            class="bg-gray-100 border-black border  w-60 max-w-11/12 p-5  mt-1 rounded-sm  text-gray-100  text-wrap">
+        
+        </div>
+    </div>
+</body>
+<script src="src/utils.js"></script>
+<script src="src/script.js"></script>
+
+</html>
